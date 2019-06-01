@@ -4,6 +4,7 @@ import fianlexam.demo.config.HttpSessionConfig;
 import fianlexam.demo.entity.MessageEntity;
 import fianlexam.demo.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpSession;
 import javax.websocket.*;
@@ -19,6 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 
 @Slf4j
+@Component
 @ServerEndpoint(value = "/play/{type}",configurator = HttpSessionConfig.class)
 public class PlayServer {
     private static Map<String, Session> onlineMap = new ConcurrentHashMap<>();
@@ -31,9 +33,8 @@ public class PlayServer {
         this.username = (String) httpSession.getAttribute("username");
         onlineMap.put(username, session);
         sendMessageToAll(JsonUtil.toJson(new MessageEntity("Enter",username,
-                username + "enter the room",onlineMap.size())));
+                username + " enter the room",onlineMap.size())));
     }
-
 
     @OnMessage
     public void onMessage(Session session,String message){

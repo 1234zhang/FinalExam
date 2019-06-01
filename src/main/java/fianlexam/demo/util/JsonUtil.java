@@ -19,4 +19,12 @@ public class JsonUtil {
     public static MessageEntity fromJson(String messageJson){
         return gson.fromJson(messageJson,MessageEntity.class);
     }
+
+    public static <T> T fromJson(String json, Class<? extends T> classType){
+        return gson.fromJson(json,classType);
+    }
+
+    public static <T> String toJson(T t){
+        return gson.toJson(t);
+    }
 }
