@@ -1,6 +1,7 @@
 package fianlexam.demo.controller;
 
 import fianlexam.demo.entity.ResultEntity;
+import fianlexam.demo.service.PlayService;
 import fianlexam.demo.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,9 @@ public class PlayController {
     @Autowired
     RedisTemplate<String, String> redisTemplate;
 
+    @Autowired
+    PlayService playService;
+
     private List<String> userList;
 
     @RequestMapping("play")
@@ -40,6 +44,9 @@ public class PlayController {
     }
     @RequestMapping("room")
     public String room(HttpServletRequest request){
+        request.setAttribute("host",request.getParameter("host"));
+        request.setAttribute("username",(String)request.getSession().getAttribute("username"));
+        redisTemplate.opsForValue().set((String)request.getSession().getAttribute("username"),"0");
         return "room";
     }
     @RequestMapping(value = "createRoom",produces = "application/json;charset=UTF-8")
@@ -62,5 +69,12 @@ public class PlayController {
             return ResultEntity.success(2,"加入成功");
         }
         return ResultEntity.error(1,"房间已经满了！！");
+    }
+
+    @RequestMapping(value = "ready",produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public ResultEntity ready(HttpServletRequest request){
+        String username = (String)request.getSession().getAttribute("username");
+        return ResultEntity.success(1,JsonUtil.toJson(playService.playStatus(username)));
     }
 }

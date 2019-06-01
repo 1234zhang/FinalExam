@@ -132,7 +132,7 @@
                 console.log(data.code);
                 if(data.code > 0){
                     alert(data.message);
-                    window.location.href = "./room";
+                    window.location.href = "./room?host=" + $('#username').text();
                 }else{
                     alert(data.message);
                 }
@@ -152,7 +152,7 @@
             success:function(data){
                 if(data.code>0){
                     alert(data.message);
-                    window.location.href="./room";
+                    window.location.href="./room?host=" + host;
                 }else{
                     alert(data.message);
                 }

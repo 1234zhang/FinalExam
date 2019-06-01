@@ -2874,3 +2874,845 @@ Caused by: java.lang.IllegalArgumentException: '*' is not a valid exposed header
 2019-06-01 12:45:51 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-06-01 12:45:58 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
 2019-06-01 12:46:14 [http-nio-8080-exec-4] ERROR fianlexam.demo.util.ExceptionUtil - find a unknown errornon null key required
+2019-06-01 12:47:36 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 25856 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 12:47:36 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 12:47:37 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 12:47:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 12:47:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 12:47:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 12:47:37 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac272d1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 12:47:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 12:47:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 12:47:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 12:47:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 12:47:38 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 12:47:38 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 12:47:38 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 12:47:39 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 12:47:39 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 12:47:40 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 12:47:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 12:47:40 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.197 seconds (JVM running for 5.238)
+2019-06-01 12:47:42 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 12:47:59 [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:28:40 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 16924 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:28:40 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:28:41 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:28:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:28:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:28:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-01 14:28:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dcd78647] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:28:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:28:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:28:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:28:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:28:44 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:28:44 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:28:44 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:28:46 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:28:46 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:28:47 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:28:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:28:47 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 7.851 seconds (JVM running for 9.365)
+2019-06-01 14:29:16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:29:22 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:46:42 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 7380 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:46:42 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:46:43 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:46:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:46:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:46:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 14:46:43 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9ef05c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:46:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:46:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:46:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:46:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:46:44 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:46:44 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:46:44 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:46:45 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:46:45 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:46:46 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:46:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:46:46 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.041 seconds (JVM running for 5.089)
+2019-06-01 14:46:52 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:46:52 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at fianlexam.demo.config.HttpSessionConfig.modifyHandshake(HttpSessionConfig.java:19)
+	at org.apache.tomcat.websocket.server.UpgradeUtil.doUpgrade(UpgradeUtil.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:64)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:151)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-06-01 14:46:58 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:50:09 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 24860 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:50:09 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:50:09 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:50:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:50:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:50:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 14:50:10 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5aadf3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:50:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:50:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:50:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:50:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:50:11 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:50:11 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:50:11 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:50:11 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:50:11 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:50:12 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:50:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:50:12 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.26 seconds (JVM running for 5.315)
+2019-06-01 14:50:16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:50:23 [http-nio-8080-exec-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:55:42 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 19412 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:55:42 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:55:43 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:55:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:55:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:55:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 14:55:43 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8e945e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:55:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:55:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:55:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:55:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:55:44 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:55:44 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:55:44 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:55:44 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:55:44 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:55:45 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:55:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:55:45 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.004 seconds (JVM running for 5.086)
+2019-06-01 14:55:50 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:55:56 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:57:29 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 28060 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:57:29 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:57:30 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:57:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:57:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:57:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 14:57:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9b148bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:57:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:57:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:57:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:57:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:57:31 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:57:32 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:57:32 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:57:32 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:57:32 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:57:33 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:57:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:57:33 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 3.968 seconds (JVM running for 4.996)
+2019-06-01 14:57:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:57:42 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 14:58:10 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 12532 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 14:58:10 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 14:58:11 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 14:58:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 14:58:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:58:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 14:58:11 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$160ec59a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:58:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 14:58:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 14:58:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 14:58:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 14:58:12 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 14:58:12 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:58:13 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 14:58:13 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 14:58:13 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 14:58:14 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 14:58:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 14:58:14 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.176 seconds (JVM running for 5.189)
+2019-06-01 14:58:21 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 14:58:25 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 15:02:21 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 13972 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:02:21 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:02:22 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:02:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:02:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:02:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 15:02:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f253775c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:02:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:02:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:02:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:02:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:02:23 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:02:23 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:02:24 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:02:24 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:02:24 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:02:25 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:02:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:02:25 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.013 seconds (JVM running for 5.096)
+2019-06-01 15:02:30 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:02:33 [http-nio-8080-exec-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 15:03:15 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 21856 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:03:15 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:03:16 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:03:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:03:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:03:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 15:03:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8cdf4a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:03:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:03:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:03:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:03:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:03:17 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:03:17 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:03:17 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:03:18 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:03:18 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:03:19 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:03:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:03:19 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.122 seconds (JVM running for 5.257)
+2019-06-01 15:03:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:20:39 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 8200 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:20:39 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:20:39 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:20:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:20:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:20:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 15:20:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5af46a1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:20:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:20:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:20:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:20:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:20:40 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:20:41 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:20:41 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:20:41 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:20:41 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:20:42 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:20:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:20:42 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.002 seconds (JVM running for 5.053)
+2019-06-01 15:20:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:20:47 [http-nio-8080-exec-2] ERROR f.demo.websocketServer.PlayServer - there happen some error : null
+2019-06-01 15:20:47 [http-nio-8080-exec-2] ERROR o.a.t.w.pojo.PojoEndpointBase - Failed to call onClose method of POJO end point for POJO of type [fianlexam.demo.websocketServer.PlayServer]
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.onClose(PojoEndpointBase.java:103)
+	at org.apache.tomcat.websocket.WsSession.fireEndpointOnClose(WsSession.java:555)
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:501)
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:459)
+	at org.apache.tomcat.websocket.WsSession.close(WsSession.java:446)
+	at org.apache.tomcat.websocket.WsSession.close(WsSession.java:440)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.handleOnOpenOrCloseError(PojoEndpointBase.java:92)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:77)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:64)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:133)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at java.base/java.util.concurrent.ConcurrentHashMap.replaceNode(ConcurrentHashMap.java:1111)
+	at java.base/java.util.concurrent.ConcurrentHashMap.remove(ConcurrentHashMap.java:1102)
+	at fianlexam.demo.websocketServer.PlayServer.onClose(PlayServer.java:46)
+	... 21 common frames omitted
+2019-06-01 15:20:47 [http-nio-8080-exec-2] ERROR f.demo.websocketServer.PlayServer - there happen some error : null
+2019-06-01 15:21:26 [http-nio-8080-exec-5] ERROR f.demo.websocketServer.PlayServer - there happen some error : null
+2019-06-01 15:21:26 [http-nio-8080-exec-5] ERROR o.a.t.w.pojo.PojoEndpointBase - Failed to call onClose method of POJO end point for POJO of type [fianlexam.demo.websocketServer.PlayServer]
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.onClose(PojoEndpointBase.java:103)
+	at org.apache.tomcat.websocket.WsSession.fireEndpointOnClose(WsSession.java:555)
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:501)
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:459)
+	at org.apache.tomcat.websocket.WsSession.close(WsSession.java:446)
+	at org.apache.tomcat.websocket.WsSession.close(WsSession.java:440)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.handleOnOpenOrCloseError(PojoEndpointBase.java:92)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:77)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:64)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:133)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at java.base/java.util.concurrent.ConcurrentHashMap.replaceNode(ConcurrentHashMap.java:1111)
+	at java.base/java.util.concurrent.ConcurrentHashMap.remove(ConcurrentHashMap.java:1102)
+	at fianlexam.demo.websocketServer.PlayServer.onClose(PlayServer.java:46)
+	... 21 common frames omitted
+2019-06-01 15:21:26 [http-nio-8080-exec-5] ERROR f.demo.websocketServer.PlayServer - there happen some error : null
+2019-06-01 15:21:31 [http-nio-8080-exec-8] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 15:25:50 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 21536 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:25:50 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:25:51 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:25:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:25:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:25:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 15:25:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c2f56b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:25:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:25:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:25:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:25:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:25:53 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:25:53 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:25:53 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:25:53 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:25:53 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:25:54 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:25:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:25:54 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.272 seconds (JVM running for 5.585)
+2019-06-01 15:25:58 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:26:05 [http-nio-8080-exec-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 15:27:44 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 5904 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:27:44 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:27:45 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:27:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:27:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:27:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 15:27:46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4029223c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:27:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:27:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:27:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:27:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:27:46 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:27:47 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:27:47 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:27:47 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:27:47 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:27:48 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:27:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:27:48 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.22 seconds (JVM running for 5.248)
+2019-06-01 15:27:55 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:30:04 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 3512 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:30:04 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:30:05 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:30:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:30:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:30:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 15:30:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18722004] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:30:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:30:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:30:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:30:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:30:06 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:30:06 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:30:06 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:30:07 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:30:07 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:30:08 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:30:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:30:08 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.259 seconds (JVM running for 5.444)
+2019-06-01 15:30:12 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 15:31:11 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 26976 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 15:31:11 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 15:31:12 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 15:31:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 15:31:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 15:31:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 15:31:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28e6b7f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:31:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 15:31:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 15:31:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 15:31:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 15:31:13 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 15:31:13 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:31:13 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 15:31:14 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 15:31:14 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 15:31:15 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 15:31:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 15:31:15 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.279 seconds (JVM running for 5.373)
+2019-06-01 15:31:20 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:16:39 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 28296 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:16:39 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:16:39 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:16:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:16:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:16:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:16:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82687d39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:16:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:16:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:16:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:16:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:16:41 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:16:41 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:16:41 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:16:41 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:16:41 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:16:43 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:16:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:16:43 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.263 seconds (JVM running for 6.682)
+2019-06-01 16:17:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:17:05 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:18:39 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 17692 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:18:39 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:18:39 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:18:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:18:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:18:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:18:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$411af72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:18:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:18:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:18:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:18:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:18:40 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:18:41 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:18:41 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:18:41 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:18:41 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:18:42 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:18:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:18:42 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 3.968 seconds (JVM running for 5.196)
+2019-06-01 16:18:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:18:59 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:20:20 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 15716 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:20:20 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:20:20 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:20:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:20:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:20:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:20:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2574efa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:20:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:20:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:20:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:20:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:20:22 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:20:22 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:20:22 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:20:22 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:20:22 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:20:23 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:20:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:20:23 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.172 seconds (JVM running for 5.219)
+2019-06-01 16:20:30 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:20:32 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:21:11 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 21716 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:21:11 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:21:12 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:21:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:21:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:21:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:21:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a716422] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:21:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:21:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:21:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:21:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:21:13 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:21:13 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:21:13 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:21:13 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:21:13 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:21:14 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:21:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:21:15 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.05 seconds (JVM running for 5.082)
+2019-06-01 16:21:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:21:31 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:21:59 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 14968 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:21:59 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:22:00 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:22:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:22:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:22:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:22:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5038ef9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:22:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:22:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:22:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:22:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:22:01 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:22:02 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:22:02 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:22:02 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:22:02 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:22:03 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:22:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:22:03 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.084 seconds (JVM running for 5.097)
+2019-06-01 16:22:06 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:23:16 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 25112 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:23:16 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:23:17 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:23:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:23:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:23:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:23:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d4f617] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:23:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:23:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:23:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:23:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:23:18 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:23:18 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:23:18 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:23:19 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:23:19 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:23:20 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:23:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:23:20 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.068 seconds (JVM running for 5.108)
+2019-06-01 16:23:24 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:24:59 [http-nio-8080-exec-8] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:25:44 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 20840 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:25:44 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:25:45 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:25:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:25:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:25:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:25:45 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f177ba3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:25:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:25:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:25:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:25:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:25:46 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:25:46 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:25:46 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:25:46 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:25:46 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:25:47 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:25:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:25:47 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 3.986 seconds (JVM running for 5.038)
+2019-06-01 16:25:56 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:25:59 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:26:43 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 25428 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:26:43 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:26:43 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:26:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:26:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:26:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:26:44 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b039872] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:26:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:26:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:26:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:26:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:26:45 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:26:45 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:26:45 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:26:45 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:26:45 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:26:46 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:26:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:26:46 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.181 seconds (JVM running for 5.212)
+2019-06-01 16:26:59 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:27:02 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:27:41 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 4656 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:27:41 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:27:42 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:27:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:27:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:27:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:27:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2574efa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:27:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:27:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:27:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:27:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:27:43 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:27:43 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:27:43 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:27:43 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:27:43 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:27:45 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:27:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:27:45 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.19 seconds (JVM running for 5.237)
+2019-06-01 16:28:03 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:28:06 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:29:19 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 27924 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:29:19 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:29:20 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:29:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:29:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:29:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:29:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d31f589] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:29:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:29:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:29:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:29:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:29:21 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:29:22 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:29:22 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:29:22 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:29:22 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:29:23 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:29:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:29:23 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.074 seconds (JVM running for 5.142)
+2019-06-01 16:29:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:29:37 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:31:23 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 27076 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:31:23 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:31:23 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:31:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:31:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:31:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:31:24 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$569cc725] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:31:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:31:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:31:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:31:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:31:25 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:31:25 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:31:25 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:31:25 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:31:25 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:31:26 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:31:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:31:26 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.047 seconds (JVM running for 5.12)
+2019-06-01 16:31:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:31:40 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:32:11 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 18444 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:32:11 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:32:12 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:32:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f21847d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:32:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:32:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:32:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:32:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:32:13 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:32:13 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:32:13 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:32:13 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:32:13 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:32:14 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:32:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:32:14 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.127 seconds (JVM running for 5.135)
+2019-06-01 16:32:20 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:32:22 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:33:04 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 5080 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:33:04 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:33:05 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:33:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:33:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:33:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-06-01 16:33:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9ef05c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:33:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:33:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:33:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:33:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:33:06 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:33:06 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:33:06 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:33:07 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:33:07 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:33:08 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:33:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:33:08 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.23 seconds (JVM running for 5.279)
+2019-06-01 16:33:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:33:17 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:34:04 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 23464 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:34:04 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:34:05 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:34:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:34:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:34:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:34:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4029223c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:34:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:34:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:34:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:34:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:34:06 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:34:06 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:34:07 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:34:07 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:34:07 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:34:08 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:34:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:34:08 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.119 seconds (JVM running for 5.141)
+2019-06-01 16:34:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:34:17 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:37:22 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 22116 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:37:22 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:37:23 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:37:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:37:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:37:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:37:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$160ec59a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:37:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:37:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:37:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:37:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:37:24 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:37:24 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:37:24 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:37:24 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:37:24 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:37:26 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:37:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:37:26 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.119 seconds (JVM running for 5.144)
+2019-06-01 16:37:31 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:37:35 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:38:14 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 3032 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:38:14 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:38:14 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:38:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:38:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:38:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:38:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee6d4e7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:38:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:38:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:38:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:38:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:38:16 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:38:16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:38:16 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:38:16 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:38:16 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:38:17 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:38:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:38:17 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.185 seconds (JVM running for 5.231)
+2019-06-01 16:38:32 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:38:35 [http-nio-8080-exec-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:40:46 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 26516 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:40:46 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:40:47 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:40:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:40:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:40:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:40:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22909408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:40:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:40:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:40:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:40:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:40:48 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:40:48 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:40:48 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:40:49 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:40:49 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:40:50 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:40:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:40:50 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.071 seconds (JVM running for 5.174)
+2019-06-01 16:41:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:41:02 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:46:11 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 440 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:46:11 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:46:11 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:46:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:46:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:46:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:46:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$557d03d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:46:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:46:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:46:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:46:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:46:12 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:46:13 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:46:13 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:46:13 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:46:13 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:46:14 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:46:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:46:14 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.015 seconds (JVM running for 5.057)
+2019-06-01 16:46:25 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:46:29 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:47:07 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 12432 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:47:07 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:47:08 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:47:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:47:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:47:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:47:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$791b0d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:47:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:47:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:47:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:47:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:47:10 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:47:10 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:47:10 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:47:10 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:47:10 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:47:11 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:47:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:47:11 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.399 seconds (JVM running for 5.551)
+2019-06-01 16:47:19 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:47:24 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:49:36 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 19896 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:49:36 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:49:37 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:49:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:49:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:49:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-01 16:49:37 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22909408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:49:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:49:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:49:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:49:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:49:38 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:49:38 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:49:38 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:49:39 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:49:39 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:49:40 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:49:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:49:40 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.01 seconds (JVM running for 5.056)
+2019-06-01 16:49:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:49:49 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-01 16:52:22 [main] INFO  fianlexam.demo.DemoApplication - Starting DemoApplication on LAPTOP-2A0OA0O8 with PID 13664 (D:\Code\JavaCode\FinalExam\target\classes started by Brandon in D:\Code\JavaCode\FinalExam)
+2019-06-01 16:52:22 [main] INFO  fianlexam.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-01 16:52:23 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[finalexam.demo.mapper]' package. Please check your configuration.
+2019-06-01 16:52:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-01 16:52:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 16:52:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-01 16:52:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb1bebd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 16:52:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-01 16:52:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-01 16:52:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-01 16:52:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-01 16:52:24 [main] INFO  f.demo.config.WebsocketConfig - the serverEndpointExporter be created
+2019-06-01 16:52:24 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 16:52:24 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-01 16:52:25 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-06-01 16:52:25 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-06-01 16:52:26 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-01 16:52:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-01 16:52:26 [main] INFO  fianlexam.demo.DemoApplication - Started DemoApplication in 4.22 seconds (JVM running for 5.263)
+2019-06-01 16:52:53 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-01 16:52:56 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

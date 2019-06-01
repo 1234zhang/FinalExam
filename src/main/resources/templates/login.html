@@ -154,7 +154,7 @@
             data:'username=' + username + '&password=' + password + '&type=login',
             success:function(data){
                 if(data.code == 1){
-                    window.location.href = "./play";
+                    window.location.href = "./hall";
                 }else{
                     alert(data.message);
                 }

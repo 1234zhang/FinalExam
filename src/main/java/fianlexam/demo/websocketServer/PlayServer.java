@@ -2,8 +2,10 @@ package fianlexam.demo.websocketServer;
 
 import fianlexam.demo.config.HttpSessionConfig;
 import fianlexam.demo.entity.MessageEntity;
+import fianlexam.demo.service.GameService;
 import fianlexam.demo.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpSession;
@@ -27,6 +29,9 @@ public class PlayServer {
 
     private String username;
 
+    @Autowired
+    GameService gameService;
+
     @OnOpen
     public void onopen(Session session, EndpointConfig endpointConfig){
         HttpSession httpSession = (HttpSession) endpointConfig.getUserProperties().get(HttpSession.class.getName());
@@ -38,6 +43,10 @@ public class PlayServer {
 
     @OnMessage
     public void onMessage(Session session,String message){
+        MessageEntity messageEntity = JsonUtil.fromJson(message);
+        if("Play".equals(messageEntity.getType())){
+            gameService.moveChess(messageEntity.getUsername(),messageEntity.getMessage());
+        }
         sendMessageToAll(message);
     }
 
