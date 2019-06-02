@@ -137,7 +137,7 @@
             if(password == null || password == ""){
                 $.ajax({
                     type:'get',
-                    url:'http://localhost:8080/createRoom',
+                    url:'http://brandonxcc.top:8080/createRoom',
                     data:'host=' + $('#username').text()+'&password=' + password,
                     success:function(data){
                         console.log(data.code);
@@ -152,7 +152,7 @@
             }else{
                 $.ajax({
                     type:'get',
-                    url:'http://localhost:8080/createRoom',
+                    url:'http://brandonxcc.top:8080/createRoom',
                     data:'host=' + $('#username').text() + '&password=' + password,
                     success:function(data){
                         if(data.code > 0){
@@ -173,7 +173,7 @@
     function enter(host){
         $.ajax({
             type:'get',
-            url:"http://localhost:8080/checkPassword",
+            url:"http://brandonxcc.top:8080/checkPassword",
             data:'host=' + host,
             success:function(data){
                 if(data.message != null && data.message != ""){
@@ -181,7 +181,7 @@
                         if(input != null && input != "" && input == data.message){
                         $.ajax({
                             type:'get',
-                            url:'http://localhost:8080/checkRoom',
+                            url:'http://brandonxcc.top:8080/checkRoom',
                             data:'host=' + host,
                             success:function(data){
                                 if(data.code>0){
@@ -198,7 +198,7 @@
                 }else{
                     $.ajax({
                         type:'get',
-                        url:'http://localhost:8080/checkRoom',
+                        url:'http://brandonxcc.top:8080/checkRoom',
                         data:'host=' + host,
                         success:function(data){
                             if(data.code>0){

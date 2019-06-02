@@ -141,7 +141,7 @@
         var password = $('#password').val();
         $.ajax({
             type:'post',
-            url:'http://localhost:8080/check',
+            url:'http://brandonxcc.top:8080/check',
             data:'username=' + username + '&password=' + password + '&type=register',
             success:function(data){
                 if(data.code == 1){

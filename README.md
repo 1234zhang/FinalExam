@@ -1,5 +1,6 @@
 # FinalExam
 ## 接口的路由
+
 ### 登录接口
 - /login： 用于加载登录的html界面
 - /check    检查登录注册时用户名是否存在，登录时密码是否正确。
@@ -42,3 +43,4 @@
 ### 代码运行环境
 - Java-11.0.1
 - mysql + redis
+- sql文件再resource中

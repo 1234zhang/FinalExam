@@ -173,7 +173,7 @@
     function sendLocationToServer(){
         $.ajax({
             type:'get',
-            url:'http://localhost:8080/readyNum',
+            url:'http://brandonxcc.top:8080/readyNum',
             success:function(data){
                 if(data.message != '2'){
                     alert("人数不足")
@@ -202,7 +202,7 @@
         var username = $('#username').text();
         $.ajax({
             type: 'get',
-            url: 'http://localhost:8080/ready',
+            url: 'http://brandonxcc.top:8080/ready',
             success:function(data){
                 var info = JSON.parse(data.message);
                 var readyStatus = document.getElementById("ready");
@@ -260,7 +260,7 @@
     function clear(){
         $.ajax({
             type: 'get',
-            url: 'http://localhost:8080/clear',
+            url: 'http://brandonxcc.top:8080/clear',
             success:function(data){
 
             }
@@ -270,7 +270,7 @@
     function regret(){
         $.ajax({
             type:'get',
-            url: 'http://localhost:8080/regret',
+            url: 'http://brandonxcc.top:8080/regret',
             data: 'username=' + $('#username').text(),
             success:function(data){
                 console.log(data.message);  
