@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mdui-col-xs-12 mdui-col-sm-10">
+            <div class="mdui-col-xs-12 mdui-col-sm-10" id="context">
                     <div class="mdui-textfield mdui-textfield-floating-label">
                         <i class="mdui-icon material-icons">textsms</i>
                         <label class="mdui-textfield-label">发送位置坐标</label>
@@ -65,6 +65,15 @@
                         </button>
                         <button class="mdui-btn mdui-color-theme mdui-ripple"
                                 onclick="ready()" id = "ready">准备
+                        </button>
+                         <button class="mdui-btn mdui-color-theme mdui-ripple"
+                                onclick="regret()">悔棋
+                        </button>
+                        <button class="mdui-btn mdui-color-theme mdui-ripple"
+                                onclick="lose()">认输
+                        </button>
+                        <button class="mdui-btn mdui-color-theme mdui-ripple"
+                                onclick="peace()">求和
                         </button>
                     </div>
                 </div>
@@ -90,13 +99,16 @@
                             <i class="mdui-icon material-icons">face</i></span>
                         <span class="mdui-chip-title">准备的玩家数：</span>
                         <span class="mdui-chip-title " id = "readyNum">0</span>
-                    </div>
+                </div>
+                <div class="message-container">
+                   
+                </div>
             </div>
         </div>
     </div>
 </div>
 <script th:inline="javascript">
-    
+    var readyNum = 0;
     var websocket = new WebSocket('ws://' + window.location.host + '/play/' + $('#host').text());
     websocket.onopen = function(event){
         console.log("connect");
@@ -106,14 +118,39 @@
         console.log("websocket : %c" + event.data,'color:green');
         var message = JSON.parse(event.data);
         var $messageContainer = $('.message-container');
-
         if(message.type == "Speak"){
             $messageContainer.prepend('<div class="mdui-card" style="margin: 10px 0;">' +
                     '<div class="mdui-card-primary">' +
                     '<div class="mdui-card-content message-content">' + message.username + "：" + message.message + '</div>' +
                     '</div></div>');
         }else if(message.type == "Play"){
-            playGame(message);
+            console.log(message.message);
+            playGame(message.message);
+        }else if(message.type == "Begin"){
+            $messageContainer.prepend('<div class="mdui-card" style="margin: 10px 0;">' +
+                    '<div class="mdui-card-primary">' +
+                    '<div class="mdui-card-content message-content">' + message.username + "：" + message.message + '</div>' +
+                    '</div></div>');
+                    var readyStatus = document.getElementById("ready");
+                    readyStatus.parentElement.removeChild(readyStatus);
+                    var readynum = document.getElementById("readyNum");
+                    readynum.innerHTML = 2;
+        }else if(message.type == "Lose"){
+            alert(message.message);
+            clear();
+            window.location.href='./play';
+        }else if(message.type == 'Peace'){
+            var final = prompt(message.message,"同意");
+            if(final != null && final != ""){
+                alert("平局");
+                clear();
+                window.location.href='./play';
+            }
+        }else if(message.type == 'Regret'){
+            $messageContainer.prepend('<div class="mdui-card" style="margin: 10px 0;">' +
+                    '<div class="mdui-card-primary">' +
+                    '<div class="mdui-card-content message-content">' + '系统' + "：" + message.message + '</div>' +
+                    '</div></div>');
         }
         $('.chat-num').text(message.onlineCount);
         var $cards = $messageContainer.children('.mudi-card:visible').toArray();
@@ -134,16 +171,27 @@
     }
 
     function sendLocationToServer(){
-        var $location = $('#location');
-        if($location.val()){
-            websocket.send(JSON.stringify({
-                type: "Play",
-                username: $('#username').text(),
-                message: $('#location').val(),
-                onlineCount: $('.chat-num').text()
-            }));
-            $location.val(null);
-        }
+        $.ajax({
+            type:'get',
+            url:'http://localhost:8080/readyNum',
+            success:function(data){
+                if(data.message != '2'){
+                    alert("人数不足")
+                }else{
+                    var $location = $('#location');
+                    if($location.val()){
+                        websocket.send(JSON.stringify({
+                            type: "Play",
+                            username: $('#username').text(),
+                            message: $('#location').val(),
+                            onlineCount: $('.chat-num').text(),
+                            hostName: $('#host').text()
+                        }));
+                        $location.val(null);
+                    }
+                }
+            }
+        });
     }
 
     websocket.onclose = function(event){
@@ -162,18 +210,89 @@
                 readyStatus.innerHTML = info.status == 1 ? '取消准备' : '准备';
                 var readynum = document.getElementById("readyNum");
                 readynum.innerHTML = info.readyNum;
+                if(info.readyNum == 2){
+                    websocket.send(JSON.stringify({
+                        type: "Begin",
+                        username: '系统',
+                        message: '比赛开始',
+                        onlineCount: $('.chat-num').text()
+                     }))
+                }
             }
         });
     }
 
     function playGame(Message){
-        
+        var $messageContainer = $('.message-container');
+        var messagejson = JSON.parse(Message);
+        if(messagejson.code == 1){
+                $messageContainer.prepend('<div class="mdui-card" style="margin: 10px 0;">' +
+                    '<div class="mdui-card-primary">' +
+                    '<div class="mdui-card-content message-content">' + "系统" + "：" + messagejson.message + '</div>' +
+                    '</div></div>');
+        }else if(messagejson.code == 10){
+            alert("游戏结束！" + messagejson.message);
+            clear();
+            window.location.href = "./play";
+        }else if(messagejson.code == -1){
+            alert(messagejson.messgae);
+        }else if(messagejson.code == -2){
+            alert(messagejson.message);
+        }
+    }
+    function lose(){
+        websocket.send(JSON.stringify({
+                        type: "Lose",
+                        username: '系统',
+                        message: $('#username').text() + '认输。。。',
+                        onlineCount: $('.chat-num').text()
+                     }))
+    }
+
+    function peace(){
+        websocket.send(JSON.stringify({
+            type:"Peace",
+            username: '系统',
+            message: $('#username').text() + "想要求和",
+            onlineCount: $('.chat-num').text()
+        }))
+    }
+    function clear(){
+        $.ajax({
+            type: 'get',
+            url: 'http://localhost:8080/clear',
+            success:function(data){
+
+            }
+        });
+    }
+
+    function regret(){
+        $.ajax({
+            type:'get',
+            url: 'http://localhost:8080/regret',
+            data: 'username=' + $('#username').text(),
+            success:function(data){
+                console.log(data.message);  
+                if(data.code == 1){
+                    websocket.send(JSON.stringify({
+                        type: "Regret",
+                        username: '系统',
+                        message: data.message,
+                        onlineCount: $('.chat-num').text()
+                    }))
+                }else if(data.code == -1){
+                    alert(data.message);
+                }
+            }
+        });
     }
 
     document.onkeydown = function(event){
         var e = event || window.event || arguments.callee.caller.arguments[0];
         e.keyCode === 13 && sendMsgToServer() && sendLocationToServer();
     }
+        
 </script>
 </body>
 </html>

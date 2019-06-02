@@ -2,6 +2,7 @@ package fianlexam.demo.util;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * @author Brandon.
@@ -14,20 +15,34 @@ public class ChessUtil {
 
     private final static int[][] CHESSBOARD = new int[MAX_SIZE][MAX_SIZE];
 
+    public static void clearArr(){
+        for (int i = 0; i < MAX_SIZE; i++) {
+            for (int j = 0; j < MAX_SIZE; j++) {
+                CHESSBOARD[i][j] = 0;
+            }
+        }
+    }
+
+    public static void regret(int x, int y){
+        CHESSBOARD[x][y] = 0;
+    }
+
     public static int play(int x, int y,int num){
         if(x > MAX_SIZE || y > MAX_SIZE){
             return -1;
         }
+
         if(CHESSBOARD[x][y] != 0){
             return -1;
         }
+
         CHESSBOARD[x][y] = num;
         int[] count = new int[4];
         count[0] = checkRow(x,y);
         count[1] = checkColumn(x,y);
         count[2] = checkOppositeLine(x,y);
         count[3] = checkPositiveDiagonal(x,y);
-        return Arrays.stream(count).max().getAsInt() - 1;
+        return Arrays.stream(count).max().getAsInt();
     }
 
     /**

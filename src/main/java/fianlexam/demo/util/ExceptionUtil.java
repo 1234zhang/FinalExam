@@ -23,7 +23,8 @@ public class ExceptionUtil{
     }
     @ExceptionHandler
     public ResultEntity getError(Exception e) {
-        log.error("find a unknown error : " + e.getMessage());
+        //log.error("find a unknown error : " + e.getMessage());
+        e.printStackTrace();
         return ResultEntity.error(-99,"未知错误");
     }
 }

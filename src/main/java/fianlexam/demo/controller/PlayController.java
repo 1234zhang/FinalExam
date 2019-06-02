@@ -5,6 +5,7 @@ import fianlexam.demo.service.PlayService;
 import fianlexam.demo.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author Brandon.
@@ -26,12 +29,11 @@ import java.util.List;
 @Slf4j
 public class PlayController {
     @Autowired
-    RedisTemplate<String, String> redisTemplate;
+    RedisTemplate<String,String> redisTemplate;
 
     @Autowired
     PlayService playService;
 
-    private List<String> userList;
 
     @RequestMapping("play")
     public String play(HttpServletRequest request){
@@ -42,19 +44,25 @@ public class PlayController {
         }
         return "login";
     }
+
     @RequestMapping("room")
     public String room(HttpServletRequest request){
         request.setAttribute("host",request.getParameter("host"));
         request.setAttribute("username",(String)request.getSession().getAttribute("username"));
-        redisTemplate.opsForValue().set((String)request.getSession().getAttribute("username"),"0");
+        redisTemplate.opsForValue().set((String)request.getSession().getAttribute("username") + "status","0");
         return "room";
     }
+
     @RequestMapping(value = "createRoom",produces = "application/json;charset=UTF-8")
     @ResponseBody
-    public ResultEntity create(HttpServletRequest request){
-        List<String> list = new ArrayList<>();
-        list.add((String)request.getSession().getAttribute("username"));
-        redisTemplate.opsForValue().set(request.getParameter("host"), JsonUtil.toJson(list));
+    public ResultEntity create(HttpServletRequest request,String host,String password){
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append(host);
+        redisTemplate.opsForValue().set(host + "host",stringBuffer.toString());
+        log.info("controller hostName " + host);
+        if(password != null && !"".equals(password)){
+            redisTemplate.opsForValue().set(host + "password" ,password);
+        }
         return ResultEntity.success(1,"创建成功");
     }
 
@@ -62,13 +70,12 @@ public class PlayController {
     @ResponseBody
     public ResultEntity check(HttpServletRequest request, HttpServletResponse response) {
         String host = request.getParameter("host");
+        log.info("the host`s name is " + host);
         String username = (String) request.getSession().getAttribute("username");
-        userList = JsonUtil.fromJson(redisTemplate.opsForValue().get(host),List.class);
-        if(userList.size() < 2){
-            userList.add(username);
-            return ResultEntity.success(2,"加入成功");
-        }
-        return ResultEntity.error(1,"房间已经满了！！");
+        StringBuffer stringBuffer = new StringBuffer(redisTemplate.opsForValue().get(host + "host"));
+        stringBuffer.append("," + username);
+        redisTemplate.opsForValue().set(host + "host",stringBuffer.toString());
+        return ResultEntity.success(2,"加入成功");
     }
 
     @RequestMapping(value = "ready",produces = "application/json;charset=UTF-8")
@@ -76,5 +83,33 @@ public class PlayController {
     public ResultEntity ready(HttpServletRequest request){
         String username = (String)request.getSession().getAttribute("username");
         return ResultEntity.success(1,JsonUtil.toJson(playService.playStatus(username)));
+    }
+
+    @RequestMapping("/clear")
+    public void clear(HttpServletRequest request){
+        playService.clear();
+    }
+
+    @RequestMapping(value = "/regret",produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public String regret(String username){
+        log.info(username + "： 悔棋");
+        return JsonUtil.toJson(playService.regret(username));
+    }
+
+    @RequestMapping(value = "/readyNum",produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public String readyNum(){
+        return JsonUtil.toJson(ResultEntity.success(1,playService.getUserSetSize() + ""));
+    }
+    @RequestMapping(value = "checkPassword",produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public String checkPassword(String host){
+        String password = redisTemplate.opsForValue().get(host + "password");
+        log.info(host + "房间的密码是" + password);
+        if(password != null && !"".equals(password)){
+            return JsonUtil.toJson(ResultEntity.success(1,password));
+        }
+        return JsonUtil.toJson(ResultEntity.success(1,""));
     }
 }

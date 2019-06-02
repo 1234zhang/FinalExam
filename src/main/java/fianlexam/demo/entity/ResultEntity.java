@@ -24,13 +24,13 @@ public class ResultEntity<T> {
     public static ResultEntity success(int code,String message){
         ResultEntity result = new ResultEntity();
         result.setMessage(message);
-        result.setCode(1);
+        result.setCode(code);
         return result;
     }
 
     public static ResultEntity success(int code, String message, Object data){
         ResultEntity result = new ResultEntity();
-        result.setCode(1);
+        result.setCode(code);
         result.setMessage(message);
         result.setData(data);
         return result;

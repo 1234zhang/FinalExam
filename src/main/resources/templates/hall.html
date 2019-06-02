@@ -116,28 +116,54 @@
     function sendMsgToServer(){
         var $message = $('#msg');
         if($message.val()){
-            websocket.send(JSON.stringify({type: "Speak", username: $('#username').text(), message: $('#msg').val(), onlineCount: $('.chat-num').text()}));
+            websocket.send(JSON.stringify({
+                    type: "Speak", 
+                    username: $('#username').text(), 
+                    message: $('#msg').val(), 
+                    onlineCount: $('.chat-num').text()
+                }));
             $message.val(null);
         }
     }
   
     function addRoom(){
-        websocket.send(JSON.stringify({type:"Speak", username: $('#username').text(),
-                message: '创建了一个房间，<button type="button" onclick = "enter(\''+  $('#username').text()+'\')">点击进入</button>',onlineCount: $('.chat-num').text()}));
-        $.ajax({
-            type:'get',
-            url:'http://localhost:8080/createRoom',
-            data:'host=' + $('#username').text(),
-            success:function(data){
-                console.log(data.code);
-                if(data.code > 0){
-                    alert(data.message);
-                    window.location.href = "./room?host=" + $('#username').text();
-                }else{
-                    alert(data.message);
-                }
+        websocket.send(JSON.stringify({
+                type:"Speak", 
+                username: $('#username').text(),
+                message: '创建了一个房间，<button type="button" onclick = "enter(\''+  $('#username').text()+'\')">点击进入</button>',
+                onlineCount: $('.chat-num').text()
+            }));
+            var password = prompt("下面框中输入你决定的密码，也可以直接跳过");
+            if(password == null || password == ""){
+                $.ajax({
+                    type:'get',
+                    url:'http://localhost:8080/createRoom',
+                    data:'host=' + $('#username').text()+'&password=' + password,
+                    success:function(data){
+                        console.log(data.code);
+                        if(data.code > 0){
+                            alert(data.message);
+                            window.location.href = "./room?host=" + $('#username').text();
+                        }else{
+                            alert(data.message);
+                        }
+                    }
+                });
+            }else{
+                $.ajax({
+                    type:'get',
+                    url:'http://localhost:8080/createRoom',
+                    data:'host=' + $('#username').text() + '&password=' + password,
+                    success:function(data){
+                        if(data.code > 0){
+                            alert(data.message);
+                            window.location.href = './room?host=' + $('#username').text();
+                        }else{
+                            alert(data.message);
+                        }
+                    }
+                });
             }
-        });
     }
 
     function clearMsg(){
@@ -147,17 +173,45 @@
     function enter(host){
         $.ajax({
             type:'get',
-            url:'http://localhost:8080/checkRoom',
+            url:"http://localhost:8080/checkPassword",
             data:'host=' + host,
             success:function(data){
-                if(data.code>0){
-                    alert(data.message);
-                    window.location.href="./room?host=" + host;
+                if(data.message != null && data.message != ""){
+                        var input = prompt("请输入密码：","");
+                        if(input != null && input != "" && input == data.message){
+                        $.ajax({
+                            type:'get',
+                            url:'http://localhost:8080/checkRoom',
+                            data:'host=' + host,
+                            success:function(data){
+                                if(data.code>0){
+                                    alert(data.message);
+                                    window.location.href='./room?host=' + host;
+                                }else{
+                                    alert(data.message);
+                                }
+                            }
+                        });
+                    }else{
+                        alert("密码错误,请重试.");
+                        }
                 }else{
-                    alert(data.message);
+                    $.ajax({
+                        type:'get',
+                        url:'http://localhost:8080/checkRoom',
+                        data:'host=' + host,
+                        success:function(data){
+                            if(data.code>0){
+                                alert(data.message);
+                                window.location.href="./room?host=" + host;
+                            }else{
+                                alert(data.message);
+                            }
+                        }
+                    });
                 }
             }
-        });
+        }); 
     }
 
     document.onkeydown = function(event){
